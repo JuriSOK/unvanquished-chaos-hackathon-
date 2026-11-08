@@ -481,6 +481,19 @@ int BG_GetBarbRegenerationInterval(const playerState_t& ps)
 
 /*
 ===============
+BG_AnglePerShot
+
+Converts an aim drift rate, in degrees per second of sustained fire,
+into the view angle change of one shot fired every repeatRate msec.
+===============
+*/
+int BG_AnglePerShot( float degreesPerSecond, int repeatRate )
+{
+	return ANGLE2SHORT( degreesPerSecond ) * repeatRate / 1000;
+}
+
+/*
+===============
 BG_InitClassAttributes
 ===============
 */

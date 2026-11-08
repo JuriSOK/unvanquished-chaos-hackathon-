@@ -1625,6 +1625,7 @@ bool                    BG_ClassHasAbility( int pClass, int ability );
 evolveInfo_t            BG_ClassEvolveInfoFromTo(int from, int to);
 
 int                       BG_GetBarbRegenerationInterval(const playerState_t& ps);
+int                       BG_AnglePerShot( float degreesPerSecond, int repeatRate );
 
 weapon_t                  BG_WeaponNumberByName( const char *name );
 const weaponAttributes_t  *BG_WeaponByName( const char *name );

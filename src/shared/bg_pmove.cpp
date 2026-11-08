@@ -4219,6 +4219,10 @@ static void PM_Weapon()
 			pm->ps->delta_angles[ YAW ] += ANGLE2SHORT( BG_crandom() * UNSTABILIZED_CHAINGUN_JITTER_SCALE );
 		}
 	}
+	else if ( pm->ps->weapon == WP_MACHINEGUN )
+	{
+		pm->ps->delta_angles[ YAW ] += BG_AnglePerShot( RIFLE_DRIFT_YAW, addTime );
+	}
 
 	pm->ps->weaponTime += addTime;
 }

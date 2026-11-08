@@ -131,6 +131,8 @@ extern const float UNSTABILIZED_CHAINGUN_JITTER_PITCH_BIAS; // determistic compo
 // bsuit or crouching variants
 extern const float STABILIZED_CHAINGUN_JITTER_SCALE; // max random change of yaw or pitch angle in degrees per bullet fired
 extern const float STABILIZED_CHAINGUN_JITTER_PITCH_BIAS; // determistic component of pitch angle change in degrees per bullet fired
+// rifle
+extern const float RIFLE_DRIFT_YAW; // yaw angle change in degrees per second of sustained fire
 
 /*
  * HUMAN upgrades
