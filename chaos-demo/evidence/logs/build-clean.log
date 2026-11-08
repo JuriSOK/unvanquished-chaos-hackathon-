@@ -1,0 +1,929 @@
+-- The C compiler identification is MSVC 19.44.35229.0
+-- The CXX compiler identification is MSVC 19.44.35229.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detected architecture: amd64
+-- Enabling amd64 architecture intrinsics
+-- Enabling i686 architecture intrinsics
+-- CMake generator: Ninja
+-- Detected C compiler: MSVC_19.44.35229.0:cl.exe
+-- Detected C++ compiler: MSVC_19.44.35229.0:cl.exe
+-- Using external deps dir: C:/unv/external_deps/windows-amd64-msvc_11
+-- Building against libraries from external deps dir
+-- Enabling compiler intrinsics
+-- Enabling compiler custom attributes and operators
+-- Performing Test _Wshadow_local
+-- Performing Test _Wshadow_local - Failed
+-- Performing Test _Wno_pragmas
+-- Performing Test _Wno_pragmas - Failed
+-- Performing Test _Wno_unknown_pragmas
+-- Performing Test _Wno_unknown_pragmas - Failed
+-- Performing Test _Wno_missing_field_initializers
+-- Performing Test _Wno_missing_field_initializers - Failed
+-- Performing Test _Wno_old_style_cast
+-- Performing Test _Wno_old_style_cast - Failed
+-- Performing Test _Woverloaded_virtual
+-- Performing Test _Woverloaded_virtual - Failed
+-- Performing Test _Wstrict_null_sentinel
+-- Performing Test _Wstrict_null_sentinel - Failed
+-- Performing Test _Wno_sign_compare
+-- Performing Test _Wno_sign_compare - Failed
+-- Performing Test _Wno_nonnull
+-- Performing Test _Wno_nonnull - Failed
+CMake Warning (policy) at daemon/CMakeLists.txt:372 (set):
+  Policy CMP0218 is not set: The CMAKE_WARN_DEPRECATED and
+  CMAKE_ERROR_DEPRECATED variables are ignored.  Run "cmake --help-policy
+  CMP0218" for policy details.  Use the cmake_policy command to set the
+  policy and suppress this warning.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (policy) at daemon/CMakeLists.txt:372 (set):
+  Policy CMP0218 is not set: The CMAKE_WARN_DEPRECATED and
+  CMAKE_ERROR_DEPRECATED variables are ignored.  Run "cmake --help-policy
+  CMP0218" for policy details.  Use the cmake_policy command to set the
+  policy and suppress this warning.
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+-- Downloading dependencies from 'https://dl.unvanquished.net/deps/windows-amd64-msvc_11.tar.xz'
+-- Download completed successfully
+-- Found OpenGL: opengl32
+-- Found ZLIB: C:/unv/external_deps/windows-amd64-msvc_11/lib/libz.lib (found version "1.3.1")
+-- Found Nettle: C:/unv/external_deps/windows-amd64-msvc_11/lib/libnettle.lib
+-- Found GMP: C:/unv/external_deps/windows-amd64-msvc_11/lib/libgmp.lib
+-- Found CURL: C:/unv/external_deps/windows-amd64-msvc_11/lib/cmake/CURL/CURLConfig.cmake (found version "8.15.0")
+Found SDL3 3.2.22: C:/unv/external_deps/windows-amd64-msvc_11/SDL3/cmake
+-- Found Ogg: C:/unv/external_deps/windows-amd64-msvc_11/lib/libogg.lib
+-- Found Vorbis: C:/unv/external_deps/windows-amd64-msvc_11/lib/libvorbis.lib
+-- Found Opus: C:/unv/external_deps/windows-amd64-msvc_11/lib/libopusfile.lib
+-- Found WebP: C:/unv/external_deps/windows-amd64-msvc_11/lib/libwebp.lib
+-- Performing Test _WEBP_COMPILATION_TEST
+-- Performing Test _WEBP_COMPILATION_TEST - Success
+-- Found JPEG: C:/unv/external_deps/windows-amd64-msvc_11/lib/libjpeg.lib (found version "80")
+-- Found PNG: C:/unv/external_deps/windows-amd64-msvc_11/lib/libpng16.lib (found version "1.6.50")
+-- Could NOT find Freetype (missing: FREETYPE_LIBRARY FREETYPE_INCLUDE_DIRS) 
+CMake Warning at daemon/CMakeLists.txt:755 (message):
+  PREFER_EXTERNAL_LIBS is enabled but external Freetype is not found, falling
+  back to vendored Freetype.
+Call Stack (most recent call first):
+  daemon/CMakeLists.txt:792 (prefer_package)
+
+
+CMake Warning (deprecated) at daemon/libs/freetype/CMakeLists.txt:113 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Found GLEW: C:/unv/external_deps/windows-amd64-msvc_11/lib/libglew32.lib
+-- Found OpenAL: C:/unv/external_deps/windows-amd64-msvc_11/lib/libOpenAL32.lib
+-- client
+-- Detected architecture: amd64
+-- Enabling amd64 architecture intrinsics
+-- Enabling i686 architecture intrinsics
+-- CMake generator: Ninja
+-- Detected C compiler: MSVC_19.44.35229.0:cl.exe
+-- Detected C++ compiler: MSVC_19.44.35229.0:cl.exe
+-- Enabling compiler intrinsics
+-- Enabling compiler custom attributes and operators
+-- Could NOT find Freetype (missing: FREETYPE_LIBRARY FREETYPE_INCLUDE_DIRS) 
+CMake Warning at daemon/CMakeLists.txt:755 (message):
+  PREFER_EXTERNAL_LIBS is enabled but external Freetype is not found, falling
+  back to vendored Freetype.
+Call Stack (most recent call first):
+  CMakeLists.txt:103 (prefer_package)
+
+
+-- Could NOT find Lua (missing: LUA_LIBRARIES LUA_INCLUDE_DIR) 
+CMake Warning at daemon/CMakeLists.txt:755 (message):
+  PREFER_EXTERNAL_LIBS is enabled but external Lua is not found, falling back
+  to vendored Lua.
+Call Stack (most recent call first):
+  CMakeLists.txt:117 (prefer_package)
+
+
+-- Performing Test _Wno_deprecated_enum_compare
+-- Performing Test _Wno_deprecated_enum_compare - Failed
+-- Performing Test _Wno_deprecated_enum_compare_conditional
+-- Performing Test _Wno_deprecated_enum_compare_conditional - Failed
+-- Performing Test _Wno_deprecated_enum_enum_conversion
+-- Performing Test _Wno_deprecated_enum_enum_conversion - Failed
+-- Performing Test _Wno_deprecated_enum_float_conversion
+-- Performing Test _Wno_deprecated_enum_float_conversion - Failed
+-- Performing Test _Wno_maybe_uninitialized
+-- Performing Test _Wno_maybe_uninitialized - Failed
+-- Found Python: C:/Program Files/Python313/python.exe (found version "3.13.12") found components: Interpreter
+-- Using CBSE Python executable: C:/Program Files/Python313/python.exe
+-- Configuring done (22.7s)
+-- Generating done (0.3s)
+-- Build files have been written to: C:/unv/build-clean
+[1/639] Building C object daemon_build\CMakeFiles\srclibs-minizip.dir\libs\minizip\ioapi.c.obj
+[2/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\addchstr.c.obj
+[3/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\addstr.c.obj
+[4/639] Building C object daemon_build\CMakeFiles\srclibs-minizip.dir\libs\minizip\unzip.c.obj
+C:\unv\src\Unvanquished\daemon\libs\minizip\unzip.c(1041): warning C4456: declaration of 'uL' hides previous local declaration
+C:\unv\src\Unvanquished\daemon\libs\minizip\unzip.c(896): note: see declaration of 'uL'
+[5/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\addch.c.obj
+[6/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\attr.c.obj
+[7/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\beep.c.obj
+[8/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\bkgd.c.obj
+[9/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\border.c.obj
+[10/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\clear.c.obj
+[11/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\color.c.obj
+[12/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\delch.c.obj
+[13/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\debug.c.obj
+[14/639] Building CXX object daemon_build\CMakeFiles\srclibs-nacl-native.dir\libs\nacl\native_client\src\shared\imc\nacl_imc_common.cc.obj
+[15/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\deleteln.c.obj
+[16/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\getch.c.obj
+[17/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\inch.c.obj
+[18/639] Building CXX object daemon_build\CMakeFiles\srclibs-nacl-native.dir\libs\nacl\native_client\src\shared\imc\win\nacl_shm.cc.obj
+C:\unv\src\Unvanquished\daemon\libs\nacl\native_client\src\shared\imc\win\nacl_shm.cc(27): warning C4100: 'func': unreferenced parameter
+C:\unv\src\Unvanquished\daemon\libs\nacl\native_client\src\shared\imc\win\nacl_shm.cc(122): warning C4100: 'length': unreferenced parameter
+[19/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\getstr.c.obj
+[20/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\getyx.c.obj
+[21/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\inchstr.c.obj
+[22/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\initscr.c.obj
+[23/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\inopts.c.obj
+[24/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\insstr.c.obj
+[25/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\instr.c.obj
+[26/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\insch.c.obj
+[27/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\kernel.c.obj
+[28/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\keyname.c.obj
+[29/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\move.c.obj
+[30/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\mouse.c.obj
+[31/639] Building CXX object daemon_build\CMakeFiles\srclibs-nacl-native.dir\libs\nacl\native_client\src\shared\imc\win\nacl_imc.cc.obj
+C:\unv\src\Unvanquished\daemon\libs\nacl\native_client\src\shared\imc\win\nacl_imc.cc(271): warning C4100: 'flags': unreferenced parameter
+C:\unv\src\Unvanquished\daemon\libs\nacl\native_client\src\shared\imc\win\nacl_imc.cc(521): warning C4389: '!=': signed/unsigned mismatch
+[32/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\outopts.c.obj
+[33/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\overlay.c.obj
+[34/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\printw.c.obj
+[35/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\panel.c.obj
+[36/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\pad.c.obj
+[37/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\refresh.c.obj
+[38/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\scr_dump.c.obj
+[39/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\scroll.c.obj
+[40/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\termattr.c.obj
+[41/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\terminfo.c.obj
+[42/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\slk.c.obj
+[43/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\touch.c.obj
+[44/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\util.c.obj
+[45/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\scanw.c.obj
+[46/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\pdcurses\window.c.obj
+[47/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdcclip.c.obj
+[48/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdcgetsc.c.obj
+[49/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdckbd.c.obj
+[50/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdcsetsc.c.obj
+[51/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdcdisp.c.obj
+[52/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdcscrn.c.obj
+[53/639] Building C object daemon_build\CMakeFiles\srclibs-pdcurses.dir\libs\pdcursesmod\wingui\pdcutil.c.obj
+[54/639] Linking CXX static library srclibs-nacl-native.lib
+[55/639] Linking C static library srclibs-minizip.lib
+[56/639] Linking C static library srclibs-pdcurses.lib
+[57/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftbdf.c.obj
+[58/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftbbox.c.obj
+[59/639] Building C object daemon_build\CMakeFiles\srclibs-findlocale.dir\libs\findlocale\findlocale.c.obj
+C:\unv\src\Unvanquished\daemon\libs\findlocale\findlocale.c(36): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\findlocale\findlocale.c(58): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\findlocale\findlocale.c(391): warning C4189: 'sub_lang': local variable is initialized but not referenced
+C:\unv\src\Unvanquished\daemon\libs\findlocale\findlocale.c(413): warning C4100: 'domain': unreferenced parameter
+[60/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftcid.c.obj
+[61/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftbitmap.c.obj
+[62/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftbase.c.obj
+[63/639] Building CXX object daemon_build\CMakeFiles\srclibs-mumblelink.dir\libs\mumblelink\libmumblelink.cpp.obj
+C:\unv\src\Unvanquished\daemon\libs\mumblelink\libmumblelink.cpp(183): warning C4267: '=': conversion from 'size_t' to 'UINT32', possible loss of data
+[64/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftfstype.c.obj
+[65/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\autofit\autofit.c.obj
+[66/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftgasp.c.obj
+[67/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftotval.c.obj
+[68/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftgxval.c.obj
+[69/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftpatent.c.obj
+[70/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftmm.c.obj
+[71/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftglyph.c.obj
+[72/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftinit.c.obj
+[73/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftpfr.c.obj
+[74/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftsynth.c.obj
+[75/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftwinfnt.c.obj
+[76/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\fttype1.c.obj
+[77/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\bzip2\ftbzip2.c.obj
+[78/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftstroke.c.obj
+[79/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\gzip\ftgzip.c.obj
+[80/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\cache\ftcache.c.obj
+[81/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\cmake_pch.cxx.obj
+[82/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\cid\type1cid.c.obj
+[83/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\bdf\bdf.c.obj
+[84/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\lzw\ftlzw.c.obj
+[85/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\__\GeneratedSource\DaemonBuildInfo\Engine.cpp.obj
+[86/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\pcf\pcf.c.obj
+[87/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\pfr\pfr.c.obj
+[88/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\cff\cff.c.obj
+[89/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\Color.cpp.obj
+[90/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\Cvar.cpp.obj
+[91/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\Debugger.cpp.obj
+[92/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\Command.cpp.obj
+[93/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\IPC\CommandBuffer.cpp.obj
+[94/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\psaux\psaux.c.obj
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\psaux\t1decode.c(1996): warning C4267: '=': conversion from 'size_t' to 'FT_Int', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\psaux\psintrp.c(1012): warning C4267: '=': conversion from 'size_t' to 'FT_Fast', possible loss of data
+[95/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\IPC\Primitives.cpp.obj
+[96/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\LineEditData.cpp.obj
+[97/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\String.cpp.obj
+[98/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\Util.cpp.obj
+[99/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_patch.cpp.obj
+[100/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\Log.cpp.obj
+[101/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\KeyIdentification.cpp.obj
+[102/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\System.cpp.obj
+[103/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_plane.cpp.obj
+[104/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_load.cpp.obj
+[105/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_polylib.cpp.obj
+[106/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\qcommon\q_math.cpp.obj
+[107/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_test.cpp.obj
+[108/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\qcommon\q_unicode.cpp.obj
+[109/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_trisoup.cpp.obj
+[110/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\cm\cm_trace.cpp.obj
+[111/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\Application.cpp.obj
+[112/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\qcommon\q_shared.cpp.obj
+[113/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\common\FileSystem.cpp.obj
+[114/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\CommandBufferHost.cpp.obj
+[115/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\BaseCommands.cpp.obj
+[116/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\CommandSystem.cpp.obj
+[117/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\ConsoleHistory.cpp.obj
+[118/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\ConsoleField.cpp.obj
+[119/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\CrashDump.cpp.obj
+[120/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\Resource.cpp.obj
+[121/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\OmpSystem.cpp.obj
+[122/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\CvarSystem.cpp.obj
+[123/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\LogSystem.cpp.obj
+[124/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\Crypto.cpp.obj
+[125/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\qcommon\md5.cpp.obj
+[126/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\Rcon.cpp.obj
+[127/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\sys\con_passive.cpp.obj
+[128/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\CommonVMServices.cpp.obj
+[129/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\sys\con_common.cpp.obj
+[130/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\VirtualMachine.cpp.obj
+[131/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\System.cpp.obj
+[132/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\psnames\psnames.c.obj
+[133/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\pshinter\pshinter.c.obj
+[134/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\framework\Network.cpp.obj
+[135/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\smooth\smooth.c.obj
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\smooth\ftgrays.c(1898): warning C4267: '+=': conversion from 'size_t' to 'TCoord', possible loss of data
+[136/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\sdf\sdf.c.obj
+[137/639] Building CXX object daemon_build\CMakeFiles\engine-lib.dir\src\engine\sys\con_curses.cpp.obj
+[138/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\svg\svg.c.obj
+[139/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\raster\raster.c.obj
+[140/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\sfnt\sfnt.c.obj
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\sfnt\pngshim.c(134): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\sfnt\sfdriver.c(884): warning C4267: '=': conversion from 'size_t' to 'FT_UInt', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\sfnt\sfdriver.c(1036): warning C4244: 'function': conversion from '__int64' to 'const unsigned int', possible loss of data
+[141/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\builds\windows\ftsystem.c.obj
+[142/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\builds\windows\ftdebug.c.obj
+[143/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\type42\type42.c.obj
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type42\t42parse.c(878): warning C4244: '=': conversion from '__int64' to 'FT_Int', possible loss of data
+[144/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\type1\type1.c.obj
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(292): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(313): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(342): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(369): warning C4267: '=': conversion from 'size_t' to 'FT_UInt', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(578): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(587): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(596): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(605): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1driver.c(615): warning C4267: '=': conversion from 'size_t' to 'FT_ULong', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1load.c(1780): warning C4244: '=': conversion from '__int64' to 'FT_Int', possible loss of data
+C:\unv\src\Unvanquished\daemon\libs\freetype\src\type1\t1load.c(1953): warning C4244: '=': conversion from '__int64' to 'FT_Int', possible loss of data
+[145/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\winfonts\winfnt.c.obj
+[146/639] Linking CXX static library srclibs-mumblelink.lib
+[147/639] Linking C static library srclibs-findlocale.lib
+[148/639] Building RC object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\base\ftver.rc.res
+[149/639] Building C object daemon_build\libs\freetype\CMakeFiles\freetype.dir\src\truetype\truetype.c.obj
+[150/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_28_cxx.cxx.obj
+[151/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_26_cxx.cxx.obj
+[152/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_24_cxx.cxx.obj
+[153/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_25_cxx.cxx.obj
+[154/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_27_cxx.cxx.obj
+[155/639] Linking CXX static library engine-lib.lib
+[156/639] Linking C static library freetype.lib
+[157/639] Generating CBSE entities for C:/unv/src/Unvanquished/src/sgame/entities.yaml
+[158/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/common_glsl.h
+[159/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_20_cxx.cxx.obj
+[160/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_23_cxx.cxx.obj
+[161/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_19_cxx.cxx.obj
+[162/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_21_cxx.cxx.obj
+[163/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/common_cp_glsl.h
+[164/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/shaderProfiler_vp_glsl.h
+[165/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/material_cp_glsl.h
+[166/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/shaderProfiler_fp_glsl.h
+[167/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/material_vp_glsl.h
+[168/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/fogEquation_fp_glsl.h
+[169/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/material_fp_glsl.h
+[170/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/clearSurfaces_cp_glsl.h
+[171/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/cull_cp_glsl.h
+[172/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/screenSpace_vp_glsl.h
+[173/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/depthReduction_cp_glsl.h
+[174/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/processSurfaces_cp_glsl.h
+[175/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/cameraEffects_fp_glsl.h
+[176/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/blur_fp_glsl.h
+[177/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/contrast_fp_glsl.h
+[178/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/motionblur_fp_glsl.h
+[179/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/fxaa_fp_glsl.h
+[180/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/depthtile1_fp_glsl.h
+[181/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/depthtile2_fp_glsl.h
+[182/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/depthtile1_vp_glsl.h
+[183/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/lighttile_vp_glsl.h
+[184/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/ssao_fp_glsl.h
+[185/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/lighttile_fp_glsl.h
+[186/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/computeLight_fp_glsl.h
+[187/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/deformVertexes_vp_glsl.h
+[188/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/reliefMapping_fp_glsl.h
+[189/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/vertexAnimation_vp_glsl.h
+[190/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/fxaa3_11_fp_glsl.h
+[191/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/vertexSimple_vp_glsl.h
+[192/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/vertexSkinning_vp_glsl.h
+[193/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/fog_vp_glsl.h
+[194/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_22_cxx.cxx.obj
+[195/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/fog_fp_glsl.h
+[196/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/generic_fp_glsl.h
+[197/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/heatHaze_vp_glsl.h
+[198/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/generic_vp_glsl.h
+[199/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/heatHaze_fp_glsl.h
+[200/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/liquid_vp_glsl.h
+[201/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/lightMapping_vp_glsl.h
+[202/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/reflection_CB_fp_glsl.h
+[203/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/reflection_CB_vp_glsl.h
+[204/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/liquid_fp_glsl.h
+[205/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/lightMapping_fp_glsl.h
+[206/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/screen_vp_glsl.h
+[207/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/screen_fp_glsl.h
+[208/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/skybox_vp_glsl.h
+[209/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/EngineShaders/skybox_fp_glsl.h
+[210/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_14_cxx.cxx.obj
+[211/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_18_cxx.cxx.obj
+[212/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_12_cxx.cxx.obj
+[213/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_15_cxx.cxx.obj
+[214/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_16_cxx.cxx.obj
+[215/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_13_cxx.cxx.obj
+[216/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_17_cxx.cxx.obj
+[217/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_7_cxx.cxx.obj
+[218/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_8_cxx.cxx.obj
+[219/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_9_cxx.cxx.obj
+[220/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_11_cxx.cxx.obj
+[221/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_10_cxx.cxx.obj
+[222/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_6_cxx.cxx.obj
+[223/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_3_cxx.cxx.obj
+[224/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_5_cxx.cxx.obj
+[225/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_4_cxx.cxx.obj
+[226/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\libs\RmlUi\Source\Core\SystemInterface.cpp.obj
+[227/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_2_cxx.cxx.obj
+[228/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lapi.c.obj
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1186): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1192): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1204): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1206): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1216): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1218): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1220): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lapi.c(1279): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+libs\lua\lapi.c(1249) : warning C4702: unreachable code
+[229/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lauxlib.c.obj
+C:\unv\src\Unvanquished\libs\lua\lauxlib.c(813): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+[230/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lctype.c.obj
+[231/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lcorolib.c.obj
+[232/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lbaselib.c.obj
+[233/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lcode.c.obj
+C:\unv\src\Unvanquished\libs\lua\lcode.c(333): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lcode.c(340): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lcode.c(342): warning C4244: '=': conversion from 'int' to 'ls_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(385): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lcode.c(482): warning C4244: '+=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(563): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1289): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1290): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1295): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1297): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1301): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1305): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lcode.c(1822): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+[234/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ldblib.c.obj
+[235/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ldump.c.obj
+[236/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_1_cxx.cxx.obj
+[237/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lfunc.c.obj
+[238/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ldebug.c.obj
+C:\unv\src\Unvanquished\libs\lua\ldebug.c(921): warning C4244: 'initializing': conversion from 'volatile sig_atomic_t' to 'lu_byte', possible loss of data
+[239/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ldo.c.obj
+C:\unv\src\Unvanquished\libs\lua\ldo.c(86): warning C4324: 'lua_longjmp': structure was padded due to alignment specifier
+C:\unv\src\Unvanquished\libs\lua\ldo.c(222): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\ldo.c(342): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\ldo.c(343): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\ldo.c(506): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\ldo.c(507): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\ldo.c(828): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+[240/639] Building CXX object CMakeFiles\srclibs-rmlui.dir\Unity\unity_0_cxx.cxx.obj
+[241/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\linit.c.obj
+[242/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lgc.c.obj
+C:\unv\src\Unvanquished\libs\lua\lgc.c(263): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lgc.c(926): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lgc.c(1578): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lgc.c(1733): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+[243/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\liolib.c.obj
+C:\unv\src\Unvanquished\libs\lua\liolib.c(447): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\liolib.c(531): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\liolib.c(536): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+[244/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lmem.c.obj
+[245/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lmathlib.c.obj
+[246/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lopcodes.c.obj
+[247/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\llex.c.obj
+[248/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lstate.c.obj
+[249/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lobject.c.obj
+libs\lua\lobject.c(105) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lobject.c(105) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lobject.c(117) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lobject.c(117) : warning C4701: potentially uninitialized local variable 'n2' used
+[250/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\loslib.c.obj
+[251/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lstring.c.obj
+C:\unv\src\Unvanquished\libs\lua\lstring.c(181): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lstring.c(268): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+[252/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lparser.c.obj
+C:\unv\src\Unvanquished\libs\lua\lparser.c(178): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lparser.c(200): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lparser.c(269): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(318): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(319): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(356): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lparser.c(500): warning C4244: '+=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(563): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lparser.c(683): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(705): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\lparser.c(864): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(1067): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(1341): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(1347): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(1353): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(1738): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lparser.c(1913): warning C4244: '=': conversion from 'int' to 'lu_byte', possible loss of data
+[253/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lstrlib.c.obj
+C:\unv\src\Unvanquished\libs\lua\lstrlib.c(131): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lstrlib.c(144): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lstrlib.c(541): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lstrlib.c(1019): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lstrlib.c(1062): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\unv\src\Unvanquished\libs\lua\lstrlib.c(1579): warning C4310: cast truncates constant value
+[254/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ltablib.c.obj
+[255/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ltable.c.obj
+C:\unv\src\Unvanquished\libs\lua\ltable.c(319): warning C4310: cast truncates constant value
+C:\unv\src\Unvanquished\libs\lua\ltable.c(489): warning C4310: cast truncates constant value
+[256/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\ltm.c.obj
+libs\lua\ltm.c(217) : warning C4702: unreachable code
+[257/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\loadlib.c.obj
+[258/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lundump.c.obj
+[259/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lzio.c.obj
+[260/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lutf8lib.c.obj
+[261/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourAssert.cpp.obj
+[262/639] Building C object CMakeFiles\srclibs-fastlz.dir\libs\fastlz\fastlz.c.obj
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(185): warning C4244: '=': conversion from 'int' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(234): warning C4244: '=': conversion from '__int64' to 'flzuint32', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(294): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(304): warning C4244: '=': conversion from '__int64' to 'flzuint32', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(352): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(360): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(365): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(366): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(408): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(417): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(548): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(185): warning C4244: '=': conversion from 'int' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(234): warning C4244: '=': conversion from '__int64' to 'flzuint32', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(294): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(304): warning C4244: '=': conversion from '__int64' to 'flzuint32', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(312): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(317): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(320): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(330): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(332): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(341): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(343): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(408): warning C4244: '=': conversion from 'flzuint32' to 'flzuint8', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(417): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\unv\src\Unvanquished\libs\fastlz\fastlz.c(548): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+[263/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\DebugUtils\Source\DebugDraw.cpp.obj
+[264/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourAlloc.cpp.obj
+[265/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\DebugUtils\Source\DetourDebugDraw.cpp.obj
+[266/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\DetourCrowd\Source\DetourPathCorridor.cpp.obj
+[267/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourCommon.cpp.obj
+[268/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourNavMesh.cpp.obj
+C:\unv\src\Unvanquished\libs\recastnavigation\Detour\Source\DetourNavMesh.cpp(639): warning C4127: conditional expression is constant
+C:\unv\src\Unvanquished\libs\recastnavigation\Detour\Source\DetourNavMesh.cpp(639): note: the template instantiation context (the oldest one first) is
+C:\unv\src\Unvanquished\libs\recastnavigation\Detour\Source\DetourNavMesh.cpp(723): note: see reference to function template instantiation 'void `anonymous-namespace'::closestPointOnDetailEdges<false>(const dtMeshTile *,const dtPoly *,const float *,float *)' being compiled
+[269/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourNode.cpp.obj
+[270/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourNavMeshBuilder.cpp.obj
+[271/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastAssert.cpp.obj
+[272/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\Detour\Source\DetourNavMeshQuery.cpp.obj
+[273/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastAlloc.cpp.obj
+[274/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\DetourTileCache\Source\DetourTileCache.cpp.obj
+[275/639] Building CXX object CMakeFiles\srclibs-detour.dir\libs\recastnavigation\DetourTileCache\Source\DetourTileCacheBuilder.cpp.obj
+[276/639] Building C object CMakeFiles\srclibs-lua.dir\libs\lua\lvm.c.obj
+libs\lua\lvm.c(1399) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1399) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1403) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1403) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1407) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1407) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1412) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1412) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1416) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1416) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1420) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1420) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1425) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1425) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1461) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1461) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1465) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1465) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1469) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1469) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1474) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1474) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1478) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1478) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1482) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1482) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1487) : warning C4701: potentially uninitialized local variable 'n1' used
+libs\lua\lvm.c(1487) : warning C4701: potentially uninitialized local variable 'n2' used
+libs\lua\lvm.c(1549) : warning C4701: potentially uninitialized local variable 'nb' used
+[277/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastArea.cpp.obj
+[278/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastFilter.cpp.obj
+[279/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\Recast.cpp.obj
+[280/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastContour.cpp.obj
+[281/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastRasterization.cpp.obj
+[282/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastMesh.cpp.obj
+[283/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastLayers.cpp.obj
+[284/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\RecastDemo\Source\ChunkyTriMesh.cpp.obj
+[285/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastRegion.cpp.obj
+[286/639] Building CXX object CMakeFiles\srclibs-recast.dir\libs\recastnavigation\Recast\Source\RecastMeshDetail.cpp.obj
+[287/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\iconv.cpp.obj
+[288/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\log.cpp.obj
+[289/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\dictionary.cpp.obj
+[290/639] Generating ../GeneratedSource/DaemonEmbeddedFiles/ConsoleFont/unifont_otf.h
+[291/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\plural_forms.cpp.obj
+[292/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\dictionary_manager.cpp.obj
+[293/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\language.cpp.obj
+C:\unv\src\Unvanquished\libs\tinygettext\src\language.cpp(473): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+[294/639] Linking C static library srclibs-lua.lib
+[295/639] Linking C static library srclibs-fastlz.lib
+[296/639] Building CXX object CMakeFiles\srclibs-tinygettext.dir\libs\tinygettext\src\po_parser.cpp.obj
+[297/639] Linking CXX static library srclibs-recast.lib
+[298/639] Linking CXX static library srclibs-detour.lib
+[299/639] Building CXX object CMakeFiles\sgame-native-dll.dir\cmake_pch.cxx.obj
+[300/639] Running utility command for runtime_deps
+[301/639] Building CXX object CMakeFiles\cgame-native-dll.dir\cmake_pch.cxx.obj
+[302/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\Beacon.cpp.obj
+[303/639] Building RC object daemon_build\CMakeFiles\client-objects.dir\src\engine\sys\windows-resource\icon.rc.res
+[304/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\cmake_pch.cxx.obj
+[305/639] Linking CXX static library srclibs-tinygettext.lib
+[306/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\BaseClustering.cpp.obj
+[307/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\Entities.cpp.obj
+[308/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_bot.cpp.obj
+[309/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_active.cpp.obj
+[310/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_api.cpp.obj
+[311/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_bot_ai.cpp.obj
+[312/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_admin.cpp.obj
+[313/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_bot_nav.cpp.obj
+[314/639] Linking CXX static library srclibs-rmlui.lib
+[315/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_bot_skilltree.cpp.obj
+[316/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_bot_util.cpp.obj
+[317/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_cm_world.cpp.obj
+[318/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_bot_parse.cpp.obj
+[319/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_buildable.cpp.obj
+[320/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_buildpoints.cpp.obj
+[321/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_client.cpp.obj
+[322/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_cmds.cpp.obj
+[323/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_physics.cpp.obj
+[324/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_namelog.cpp.obj
+[325/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_combat.cpp.obj
+[326/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_momentum.cpp.obj
+[327/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_maprotation.cpp.obj
+[328/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_entities.cpp.obj
+[329/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_missile.cpp.obj
+[330/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_ctrl.cpp.obj
+[331/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_session.cpp.obj
+[332/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_game.cpp.obj
+[333/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_fx.cpp.obj
+[334/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_main.cpp.obj
+[335/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_position.cpp.obj
+[336/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn.cpp.obj
+[337/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_gfx.cpp.obj
+[338/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_afx.cpp.obj
+[339/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_shared.cpp.obj
+[340/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_sensor.cpp.obj
+[341/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_generic.cpp.obj
+[342/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_team.cpp.obj
+[343/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_svcmds.cpp.obj
+[344/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\CombatFeedback.cpp.obj
+[345/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\botlib\bot_convert.cpp.obj
+[346/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\botlib\bot_debug.cpp.obj
+[347/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_spawn_mover.cpp.obj
+[348/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_utils.cpp.obj
+[349/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\botlib\bot_local.cpp.obj
+[350/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\botlib\bot_load.cpp.obj
+[351/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\botlib\bot_nav.cpp.obj
+[352/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_weapon.cpp.obj
+[353/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\botlib\bot_nav_edit.cpp.obj
+[354/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\AcidTubeComponent.cpp.obj
+[355/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\AlienBuildableComponent.cpp.obj
+[356/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\sg_votes.cpp.obj
+[357/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\AlienClassComponent.cpp.obj
+[358/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\ArmouryComponent.cpp.obj
+[359/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\BarricadeComponent.cpp.obj
+[360/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\BoosterComponent.cpp.obj
+[361/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\ArmorComponent.cpp.obj
+[362/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\BuildableComponent.cpp.obj
+[363/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\DeferredFreeingComponent.cpp.obj
+[364/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\ClientComponent.cpp.obj
+[365/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\DrillComponent.cpp.obj
+[366/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\EggComponent.cpp.obj
+[367/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\HiveComponent.cpp.obj
+[368/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\HumanClassComponent.cpp.obj
+[369/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\HumanBuildableComponent.cpp.obj
+[370/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\IgnitableComponent.cpp.obj
+[371/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\KnockbackComponent.cpp.obj
+[372/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\HiveMissileComponent.cpp.obj
+[373/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\HealthComponent.cpp.obj
+[374/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\LeechComponent.cpp.obj
+[375/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\MedipadComponent.cpp.obj
+[376/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\MainBuildableComponent.cpp.obj
+[377/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\MiningComponent.cpp.obj
+[378/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\MissileComponent.cpp.obj
+[379/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\MGTurretComponent.cpp.obj
+[380/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\OvermindComponent.cpp.obj
+[381/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\ReactorComponent.cpp.obj
+[382/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\RocketMissileComponent.cpp.obj
+[383/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\RocketpodComponent.cpp.obj
+[384/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\TelenodeComponent.cpp.obj
+[385/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\SpectatorComponent.cpp.obj
+[386/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\TeamComponent.cpp.obj
+[387/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\SpawnerComponent.cpp.obj
+[388/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\TrapperComponent.cpp.obj
+[389/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\SpikerComponent.cpp.obj
+[390/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_gameplay.cpp.obj
+[391/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_alloc.cpp.obj
+[392/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\ThinkingComponent.cpp.obj
+[393/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_teamprogress.cpp.obj
+[394/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\lua\Interpreter.cpp.obj
+[395/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_parse.cpp.obj
+[396/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_pmove.cpp.obj
+[397/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_voice.cpp.obj
+[398/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_utilities.cpp.obj
+[399/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_lua.cpp.obj
+[400/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\navgen\brush.cpp.obj
+[401/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\components\TurretComponent.cpp.obj
+[402/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Utils.cpp.obj
+[403/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bot_nav_shared.cpp.obj
+[404/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\bg_misc.cpp.obj
+[405/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Weapons.cpp.obj
+[406/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\parse.cpp.obj
+[407/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Buildables.cpp.obj
+[408/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Classes.cpp.obj
+[409/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Timer.cpp.obj
+[410/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Cvar.cpp.obj
+[411/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Cmd.cpp.obj
+[412/639] Building CXX object CMakeFiles\sgame-native-dll.dir\GeneratedSource\DaemonBuildInfo\Game.cpp.obj
+[413/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\lua\Upgrades.cpp.obj
+[414/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\shared\navgen\nav.cpp.obj
+[415/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\shared\VMMain.cpp.obj
+[416/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\Color.cpp.obj
+[417/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\shared\server\sg_api.cpp.obj
+[418/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\shared\CommandBufferClient.cpp.obj
+[419/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\Command.cpp.obj
+[420/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\Cvar.cpp.obj
+[421/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\Debugger.cpp.obj
+[422/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\shared\CommonProxies.cpp.obj
+[423/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\IPC\CommandBuffer.cpp.obj
+[424/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\LineEditData.cpp.obj
+[425/639] Building CXX object CMakeFiles\sgame-native-dll.dir\src\sgame\backend\CBSEBackend.cpp.obj
+[426/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\KeyIdentification.cpp.obj
+[427/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\IPC\Primitives.cpp.obj
+[428/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\String.cpp.obj
+[429/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\Util.cpp.obj
+[430/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\Log.cpp.obj
+[431/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\System.cpp.obj
+[432/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\FileSystem.cpp.obj
+[433/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_plane.cpp.obj
+[434/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_load.cpp.obj
+[435/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_patch.cpp.obj
+[436/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_polylib.cpp.obj
+[437/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\engine\qcommon\q_unicode.cpp.obj
+[438/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_test.cpp.obj
+[439/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\engine\qcommon\q_math.cpp.obj
+[440/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_trace.cpp.obj
+[441/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\common\cm\cm_trisoup.cpp.obj
+[442/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_animation.cpp.obj
+[443/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_animmapobj.cpp.obj
+[444/639] Building CXX object CMakeFiles\sgame-native-dll.dir\daemon\src\engine\qcommon\q_shared.cpp.obj
+[445/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_animdelta.cpp.obj
+[446/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_attachment.cpp.obj
+[447/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_beacon.cpp.obj
+[448/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_drawtools.cpp.obj
+[449/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_consolecmds.cpp.obj
+[450/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_buildable.cpp.obj
+[451/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_draw.cpp.obj
+[452/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_api.cpp.obj
+[453/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_key_name.cpp.obj
+[454/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_ents.cpp.obj
+[455/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_marks.cpp.obj
+[456/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_gameinfo.cpp.obj
+[457/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_event.cpp.obj
+[458/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_parseutils.cpp.obj
+[459/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_minimap.cpp.obj
+[460/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_playerstate.cpp.obj
+[461/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_main.cpp.obj
+[462/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_particles.cpp.obj
+[463/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_predict.cpp.obj
+[464/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_rocket.cpp.obj
+[465/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_players.cpp.obj
+[466/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_rocket_dataformatter.cpp.obj
+[467/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_rocket_datasource.cpp.obj
+[468/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_rocket_progressbar.cpp.obj
+[469/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_rocket_events.cpp.obj
+[470/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_segmented_skeleton.cpp.obj
+[471/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_snapshot.cpp.obj
+[472/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_trails.cpp.obj
+[473/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_utils.cpp.obj
+[474/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_servercmds.cpp.obj
+[475/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_tutorial.cpp.obj
+[476/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_view.cpp.obj
+[477/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_weapons.cpp.obj
+[478/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\cg_rocket_draw.cpp.obj
+[479/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_dataformatter.cpp.obj
+[480/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\translation.cpp.obj
+[481/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\EntityCache.cpp.obj
+[482/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\CombatFeedback.cpp.obj
+[483/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_documents.cpp.obj
+[484/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_datagrid.cpp.obj
+[485/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_events.cpp.obj
+[486/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket.cpp.obj
+[487/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_hud.cpp.obj
+[488/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_gameplay.cpp.obj
+[489/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_alloc.cpp.obj
+[490/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_element.cpp.obj
+[491/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\lua\Events.cpp.obj
+[492/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\rocket_keys.cpp.obj
+[493/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\lua\CDataSource.cpp.obj
+[494/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\cgame\rocket\lua\Player.cpp.obj
+[495/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_utilities.cpp.obj
+[496/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_pmove.cpp.obj
+[497/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_parse.cpp.obj
+[498/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_teamprogress.cpp.obj
+[499/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\navgen\brush.cpp.obj
+[500/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_misc.cpp.obj
+[501/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_lua.cpp.obj
+[502/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Utils.cpp.obj
+[503/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bg_voice.cpp.obj
+[504/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\bot_nav_shared.cpp.obj
+[505/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Weapons.cpp.obj
+[506/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Buildables.cpp.obj
+[507/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\parse.cpp.obj
+[508/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Classes.cpp.obj
+[509/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Timer.cpp.obj
+[510/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Cmd.cpp.obj
+[511/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\navgen\nav.cpp.obj
+[512/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Cvar.cpp.obj
+[513/639] Building CXX object CMakeFiles\cgame-native-dll.dir\GeneratedSource\DaemonBuildInfo\Game.cpp.obj
+[514/639] Building CXX object CMakeFiles\cgame-native-dll.dir\src\shared\lua\Upgrades.cpp.obj
+[515/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\Color.cpp.obj
+[516/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\shared\CommandBufferClient.cpp.obj
+[517/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\Cvar.cpp.obj
+[518/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\Debugger.cpp.obj
+[519/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\Command.cpp.obj
+[520/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\shared\VMMain.cpp.obj
+[521/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\IPC\CommandBuffer.cpp.obj
+[522/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\LineEditData.cpp.obj
+[523/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\KeyIdentification.cpp.obj
+[524/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\IPC\Primitives.cpp.obj
+[525/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\shared\CommonProxies.cpp.obj
+[526/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\Log.cpp.obj
+[527/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\String.cpp.obj
+[528/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\Util.cpp.obj
+[529/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\System.cpp.obj
+[530/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\shared\client\cg_api.cpp.obj
+[531/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\FileSystem.cpp.obj
+[532/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_plane.cpp.obj
+[533/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_patch.cpp.obj
+[534/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_load.cpp.obj
+[535/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_polylib.cpp.obj
+[536/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\engine\qcommon\q_math.cpp.obj
+[537/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\__\GeneratedSource\DaemonBuildInfo\Engine.cpp.obj
+[538/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_test.cpp.obj
+[539/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_trisoup.cpp.obj
+[540/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\engine\qcommon\q_unicode.cpp.obj
+[541/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\common\cm\cm_trace.cpp.obj
+[542/639] Building CXX object CMakeFiles\cgame-native-dll.dir\daemon\src\engine\qcommon\q_shared.cpp.obj
+[543/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\crypto.cpp.obj
+[544/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\cvar.cpp.obj
+[545/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\huffman.cpp.obj
+[546/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\cmd.cpp.obj
+[547/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\common.cpp.obj
+[548/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\files.cpp.obj
+[549/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_bot.cpp.obj
+[550/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\net_chan.cpp.obj
+[551/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\msg.cpp.obj
+[552/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\translation.cpp.obj
+[553/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_ccmds.cpp.obj
+[554/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_net_chan.cpp.obj
+[555/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\qcommon\net_ip.cpp.obj
+[556/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_client.cpp.obj
+[557/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_snapshot.cpp.obj
+[558/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_avi.cpp.obj
+[559/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\CryptoChallenge.cpp.obj
+[560/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_main.cpp.obj
+[561/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_init.cpp.obj
+[562/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_download.cpp.obj
+[563/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_console.cpp.obj
+[564/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\server\sv_sgame.cpp.obj
+[565/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_input.cpp.obj
+[566/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_parse.cpp.obj
+[567/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_scrn.cpp.obj
+[568/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_serverstatus.cpp.obj
+[569/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_main.cpp.obj
+[570/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_serverlist.cpp.obj
+[571/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\dl_main.cpp.obj
+[572/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\framework\OmpSystem.cpp.obj
+[573/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\hunk_allocator.cpp.obj
+[574/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\Audio.cpp.obj
+[575/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\Emitter.cpp.obj
+[576/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\OggCodec.cpp.obj
+[577/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\OpusCodec.cpp.obj
+[578/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\Sample.cpp.obj
+[579/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\Sound.cpp.obj
+[580/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_cgame.cpp.obj
+[581/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\SoundCodec.cpp.obj
+[582/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\key_identification.cpp.obj
+[583/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\WavCodec.cpp.obj
+[584/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\cl_keys.cpp.obj
+[585/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\client\key_binding.cpp.obj
+[586/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\sys\sdl_input.cpp.obj
+[587/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\DetectGLVendors.cpp.obj
+[588/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_animation.cpp.obj
+[589/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\audio\ALObjects.cpp.obj
+[590/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_cmds.cpp.obj
+[591/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_fbo.cpp.obj
+[592/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_curve.cpp.obj
+[593/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_bsp.cpp.obj
+[594/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_font.cpp.obj
+[595/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_backend.cpp.obj
+[596/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\EntityCache.cpp.obj
+[597/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\InternalImage.cpp.obj
+[598/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\GeometryCache.cpp.obj
+[599/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\GLMemory.cpp.obj
+[600/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\TextureManager.cpp.obj
+[601/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\GeometryOptimiser.cpp.obj
+[602/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\gl_shader.cpp.obj
+[603/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_crn.cpp.obj
+[604/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_tga.cpp.obj
+[605/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\Material.cpp.obj
+[606/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_png.cpp.obj
+[607/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_dds.cpp.obj
+[608/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_jpg.cpp.obj
+[609/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_ktx.cpp.obj
+[610/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_light.cpp.obj
+[611/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image_webp.cpp.obj
+[612/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_marks.cpp.obj
+[613/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_mesh.cpp.obj
+[614/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_main.cpp.obj
+[615/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_model.cpp.obj
+[616/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_image.cpp.obj
+[617/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_model_md3.cpp.obj
+[618/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_noise.cpp.obj
+[619/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_model_skel.cpp.obj
+[620/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_model_iqm.cpp.obj
+[621/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_model_md5.cpp.obj
+[622/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_init.cpp.obj
+[623/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_skin.cpp.obj
+[624/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_shade_calc.cpp.obj
+[625/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_scene.cpp.obj
+[626/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_sky.cpp.obj
+[627/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_surface.cpp.obj
+[628/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_shade.cpp.obj
+[629/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_video.cpp.obj
+[630/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_world.cpp.obj
+[631/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_vbo.cpp.obj
+[632/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\__\GeneratedSource\DaemonEmbeddedFiles\EngineShaders.cpp.obj
+[633/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\renderer\tr_shader.cpp.obj
+[634/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\src\engine\sys\sdl_glimp.cpp.obj
+[635/639] Building CXX object daemon_build\CMakeFiles\client.dir\src\engine\client\ClientApplication.cpp.obj
+[636/639] Linking CXX shared module sgame-native-dll.dll
+[637/639] Linking CXX shared module cgame-native-dll.dll
+[638/639] Building CXX object daemon_build\CMakeFiles\client-objects.dir\__\GeneratedSource\DaemonEmbeddedFiles\ConsoleFont.cpp.obj
+[639/639] Linking CXX executable daemon.exe

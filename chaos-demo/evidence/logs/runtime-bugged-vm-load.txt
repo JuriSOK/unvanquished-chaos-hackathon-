@@ -1,0 +1,12 @@
+2:cmdline: -homepath C:\unv\home-bugged -pakpath C:\unv\official\pkg -set vm.sgame.type 3 -set vm.cgame.type 3 -set r_fullscreen 0 -set r_mode -1 -set r_customwidth 1280 -set r_customheight 720 -set g_layouts chaos -set timelimit 0 -set g_neverEnd 1 -set g_doWarmup 0 +devmap plat23 +delay 150f team humans +delay 200f class rifle
+117:Loading VM module C:\unv\build-bugged/cgame-native-dll.dll...
+118:Loaded cgame VM module in 10 msec
+119:cgame Windows amd64 (MSVC_19.44.35229.0:cl.exe) Nov  7 2026
+157:Loading VM module C:\unv\build-bugged/sgame-native-dll.dll...
+158:Loaded sgame VM module in 3 msec
+159:sgame Windows amd64 (MSVC_19.44.35229.0:cl.exe) Nov  7 2026
+164:Using layout "chaos" from list (chaos ).
+165:Loading map configs for map: plat23 layout: chaos
+203:Loading VM module C:\unv\build-bugged/cgame-native-dll.dll...
+204:Loaded cgame VM module in 9 msec
+205:cgame Windows amd64 (MSVC_19.44.35229.0:cl.exe) Nov  7 2026

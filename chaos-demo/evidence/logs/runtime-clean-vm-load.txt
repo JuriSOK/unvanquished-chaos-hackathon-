@@ -1,0 +1,8 @@
+2:cmdline: -homepath C:\unv\home-clean-test -pakpath C:\unv\official\pkg -set vm.sgame.type 3 -set vm.cgame.type 3 -set r_fullscreen 0 -set r_mode -1 -set r_customwidth 1280 -set r_customheight 720 -set g_layouts chaos -set timelimit 0 -set g_neverEnd 1 -set logfile 2 -set developer 1 +devmap plat23
+117:Loading VM module C:\unv\build-clean/cgame-native-dll.dll...
+118:Loaded cgame VM module in 10 msec
+119:cgame Windows amd64 (MSVC_19.44.35229.0:cl.exe) Nov  7 2026
+157:Loading VM module C:\unv\build-clean/sgame-native-dll.dll...
+158:Loaded sgame VM module in 2 msec
+159:sgame Windows amd64 (MSVC_19.44.35229.0:cl.exe) Nov  7 2026
+164:Using layout "chaos" from list (chaos ).
